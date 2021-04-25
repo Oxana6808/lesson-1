@@ -1,0 +1,12 @@
+{
+    "name": "oxana/trpj",
+    "description": "demo for article autoload in composer for oxana",
+    "type": "project",
+    "license": "oxana",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "application"
+        }
+    }
+}
